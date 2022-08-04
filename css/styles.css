@@ -1,0 +1,199 @@
+/* WET VS DRY code
+
+Don't
+Repeat
+Yourself
+
+VS
+
+We 
+Enjoy 
+Typing*/
+
+/* Padding should be the same throughout the website */
+
+/* give id to the specific sections */
+
+
+
+
+/* Title + background */
+body {
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+}
+
+.colored-gradient {
+    background-image: linear-gradient(#FCF8EC,#D0E8F2, #bfcfde,  #79A3B1, #2C3333);
+
+}
+
+.white-section {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 3% 5% 5%;
+}
+
+/* Headers */
+
+h1 {
+    font-family: "Square Peg";
+    color: #2C3333;
+    padding-top: 10%;
+}
+
+h1, h2 {
+    font-size: 3rem;
+    line-height: 1.5 ;
+}
+
+h2, h3 {
+    font-family: "Ubuntu";
+}
+
+/* Images */
+
+
+.zen {
+    border-radius: 100%;
+    margin-top: 10%;
+  } 
+
+a {
+    font-family: Ubuntu;
+    size: 1rem;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0 0 4.5 rem;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+    font-family: "Kaushan Script";
+    font-size: 1.5rem;
+    color: #2C3333;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: "Montserrat-Light";
+}
+
+/* Button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Feature */
+
+.feature {
+    margin: 3%;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+/* Feature Images */
+
+.soothing {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+/* Features text */
+
+.card-text {
+    flex: 1;
+    font-family: "Montserra";
+    padding-top: 5%;
+}
+
+/* Feature Icons */
+
+.icon {
+    color: #79A3B1;
+}
+
+.icon:hover {
+    color:  #D0E8F2
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 5% 7% ;
+    background-color: #79A3B1 ;
+    color: #FCF8EC;
+
+}
+
+.lady {
+    width: 15%;
+    border-radius: 100%;
+    margin: 10px;
+    height: 13%; 
+    width: 13%
+}
+
+#press {
+    background-color:  #79A3B1;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 2rem;
+}
+
+.title-donation {
+    font-weight: bold;
+}
+
+@media (max-width: 1028px) {
+    .zen {
+        text-align: center;
+    }
+
+}
+
+/* Footer */
+
+#cta {
+    padding: 5% 7% ;
+}
+
+.cheesy {
+    padding: 3% ;
+}
+
+.breathe {
+    width: 100%;
+}
+
+.copyright {
+    font-family: "Kaushan Script";
+    position: relative;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
